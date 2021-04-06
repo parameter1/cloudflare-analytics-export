@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "@parameter1/base-cms-object-path": "^2.5.0",
+    "dotenv": "^8.2.0",
+    "graphql": "^15.5.0",
+    "graphql-request": "^3.4.0",
+    "inquirer": "^8.0.0",
+    "json2csv": "^5.0.6",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.22.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  },
+  "engines": {
+    "node": ">=v14"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "engineStrict": true,
+  "name": "cloudflare-analytics-export",
+  "version": "1.0.0",
+  "description": "Exports response code data from Cloudflare GraphQL API to CSV file",
+  "main": "src/index.js",
+  "repository": "https://github.com/parameter1/cloudflare-analytics-export.git",
+  "author": "Josh Worden <josh@parameter1.com>",
+  "license": "MIT"
+}
